@@ -20,3 +20,5 @@ what to process and the direction taken
 5.at an advanced level, we could have agregators, which sort of go through the staged state, apply some rules
 make changes to the raw state before finally producing the finall state.
 6.also other variations can be created that have the set of rules not being static but changing as days passby
+
+7.If size is 3 then define all rules that govern 3,2,1 combinations
