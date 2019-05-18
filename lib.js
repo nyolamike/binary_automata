@@ -17,7 +17,7 @@ var bam = {
         if(this.states.hasOwnProperty("d"+prevDay) == false){
             this.states["d"+prevDay] = this.seed;
         }
-        var prevState = this.states[prevDay];
+        var prevState = this.states["d"+prevDay];
         var bits = prevState.split();
         var ruleQuery = "";
         var dayState = "";
