@@ -38,7 +38,7 @@ var bam = {
             dayState = dayState + ruleValue;
             ruleQuery = "";
         }
-        this.states["d"+this.nextDay] = this.dayState;
+        this.states["d"+this.nextDay] = dayState;
         this.nextDay = this.nextDay + 1;
     },
     live(daysToLive){
